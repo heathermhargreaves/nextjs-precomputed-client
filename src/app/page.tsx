@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FeatureFlagTest } from "@/components/FeatureFlagTest";
 
 export default function Home() {
   return (
@@ -49,6 +50,10 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+
+        <div className="mt-8 w-full max-w-lg">
+          <FeatureFlagTest />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
