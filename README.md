@@ -109,7 +109,7 @@ The application provides comprehensive debugging information:
 | Variable | Description | Required | Default |
 |----------|-------------|----------|---------|
 | `NEXT_PUBLIC_EPPO_SDK_KEY` | Your Eppo SDK key | Yes | - |
-| `NEXT_PUBLIC_EPPO_FLAG_KEY` | Feature flag key to test | No | `Next.js-POC` |
+| `NEXT_PUBLIC_EPPO_FLAG_KEY` | Feature flag key to test | Yes | - |
 
 ## Common Issues and Solutions
 
